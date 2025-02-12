@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px rgb(205, 154, 154);
+    padding: 0px;
+   
+   
+  
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+}
+
+
+header {
+    position: relative;
+    background-color: transparent;
+
+    padding: 20px 0;
+    border-bottom:0 solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.rit{
+    text-align: center;
+    background-color: transparent;
+    padding:1px;
+  
+}
+.rit h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.sitemap {
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform:translateY(-50%)
+}
+
+.sitemap ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.sitemap ul li {
+    margin: 0;
+}
+
+.sitemap ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sitemap ul li a:hover {
+    color: #007BFF;
+}
+
+
+    
+
+.mylove {
+    position: relative;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color:rgb(11, 2, 49);
+    font-weight: bold;
+    transition: color 0.5s ease;
+
+}
+main {
+    padding: 10px;
+    margin: 0px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.destination {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.destination img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+    
+}
+
+.destination button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.destination button:hover {
+    background-color: #005bb5;
+}
+.destination:hover {
+    background-color: rgb(241, 245, 245);
+}
